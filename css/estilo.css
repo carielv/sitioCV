@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    background-color:#f1f1f1;
+    }
+
+footer {
+    text-align: center;
+}
+
+.seccion {
+        font-weight: bolder;
+        font-style: italic;
+        color: blue;
+}
+    
+.masinfo {
+    display:inline-block;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(77, 219, 77);
+}
+
+    .foto {
+        text-align: center;
+    }
+
+    .principal {
+ /* Corro el contenido principal mas alla del ancho de la barra de navegacion flotante */
+        margin-left:16%
+    }
+
+/* Estilos para barra de navegacion */
+
+/* oculto menu lateral para dispositivos con ancho menor a 600px */
+ @media only screen and (max-width: 600px) {
+     nav {
+         display: none;
+      }
+ }
+   
+
+    .ul_navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        background-color: #f1f1f1;
+        height: 100%;
+        position: fixed; 
+        overflow: auto; 
+      }
+
+    .li_navbar {
+        display: inline;
+     } 
+
+    .a_navbar {
+        display: block;
+        color: #000;
+        padding: 8px 16px; 
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #555;
+        color: white;
+      }
+
+      /* Estilos para el pie de página */
+
+      .pie {
+        margin-left:16%
+      }
+
+      .ul_footer {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      
+      .li_footer {
+        float: left;
+      }
+      
+      .a_footer {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
